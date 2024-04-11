@@ -1,0 +1,11 @@
+# @package _global_
+
+output_dir: outputs/${accelerator.project_name}/${run_name}
+run_name: default
+
+# dataset:
+#   batch_size: 12
+
+accelerator:
+  mixed_precision: BF16
+  project_name: secondthird

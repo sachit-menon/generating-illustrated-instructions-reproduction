@@ -1,0 +1,10 @@
+slurm:
+  job_name: train
+  partition: muvigen
+  n_processes: 8
+  n_nodes: 1
+  time_limit: 0-72:00:00
+  exclude: ""
+  cmd: ???
+  account: null
+  array_parallelism: 10000

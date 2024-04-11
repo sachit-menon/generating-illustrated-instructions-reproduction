@@ -1,0 +1,11 @@
+# @package _global_
+
+slurm:
+  job_name: train
+  partition: muvigen
+  n_nodes: 2
+  time_limit: 0-72:00:00
+  exclude: ""
+  cmd: ???
+  account: null
+  mixed_precision: bf16
